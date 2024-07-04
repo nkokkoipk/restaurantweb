@@ -1,0 +1,117 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.khung{
+	position: relative;
+	width: 1200px;
+	height: 100vh;
+	margin: auto;
+}
+.header{
+	position: relative;
+	background-color: black;
+	top: 0;
+	height: 80px;
+	opacity: 0.75;
+}
+.logo{
+	position: relative;
+	top: -10px;
+}
+ul{
+	list-style-type: none;
+}
+.menu{
+	float: right;
+	color: white;
+}
+.menu li{
+	position: relative;
+	display: inline-block;
+	margin:0 10px 0 20px ;
+	top: 20px;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+}
+.menu li a:hover{
+	color: orange;
+}
+.sanpham1{    
+	display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer{
+	padding-top: 5px;
+	width: 100%; 
+	height: 215px;
+	background-color: black;
+}
+.bando{
+	width: 880px;
+	height: 200px;
+	margin-left: 300px;
+	margin-top: -182px;
+}
+.footer img{
+	margin-right: 10px;
+}
+.hcn{
+	position: relative;
+	top: 150px;
+	padding-top: 80px;
+	text-align: center;
+	margin: auto;
+	width: 450px;
+	height: 180px;
+	border: solid 4px white;
+}
+.lorem{
+	width: 350px;
+	height: 450px;
+	background-color: transparent;
+	text-align: center;
+	font-style: italic;
+	font-size: 13px;
+}
+.button{
+	    color: white;
+    width: 140px;
+    height: 40px;
+    margin-top: 34px;
+    background-color: #f5cb7e;
+    border: none;
+    font-weight: 600;
+}
+
+
+.tieude{
+	width: 100%;
+	height: 100px;
+	font-style: italic;
+	text-align: center;
+	margin-top: 20px;
+}
+.sanpham1 div img p{
+	margin-bottom: 10px;
+}
+
+.ourchef{    
+	display: flex;
+    padding-top: 20px; 
+    margin-bottom: 20px;
+}
+
+.nss{
+	background-image: url(HinhAnh/img_testimonials.jpg);
+	width: 125px;
+	height: 125px;
+	margin: auto;
+	border-radius: 100%;
+}
